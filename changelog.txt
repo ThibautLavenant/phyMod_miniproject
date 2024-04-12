@@ -7,3 +7,8 @@ J'ai visionné quelques vidéos sur la modélisation des bouchons, j'ai synthét
 
 Benjamin 08/07:
 Ajout de quelques éléments sur un modèle macroscopique d'étude de traffic de voitures comme un flux (équation de continuité). 
+
+Thibaut 12/04 :
+J'ai ajouté ma modélisation préalable. La voiture accélère et ralentit en fonction d'un obstacle et de sa vitesse désirée. Pour le moment la fonction qui calcule la force de freinage n'est pas correcte et freine à la fois trop et pas assez. Ne prends pas en compte le délai de réaction et aussi overshoote l'obstacle.
+Pour tout ça j'ai fait une fonction d'affichage simple qui me permet d'afficher la cinématique d'une unique voiture.
+Le modèle de l'obstacle fixe se décline très bien à un obstacle mobile (la voiture de devant) en utilisant la position de la voiture de devant et la vitesse relative (changement de référentiel)
