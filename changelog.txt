@@ -15,3 +15,6 @@ Le modèle de l'obstacle fixe se décline très bien à un obstacle mobile (la v
 
 Benjamin 12/04:
 Ajout de quelques équations guidant la relation vitesse densité venant de plusieurs modèles historiques de modélisation de traffic. 
+
+Benjamin 13/04:
+Corrections de typos, et progression du travail sur l'EDP de continuité
