@@ -17,4 +17,4 @@ Benjamin 12/04:
 Ajout de quelques équations guidant la relation vitesse densité venant de plusieurs modèles historiques de modélisation de traffic. 
 
 Benjamin 13/04:
-Corrections de typos, et progression du travail sur l'EDP de continuité
+Corrections de typos, et progression du travail sur l'EDP de continuité, on arrive à un premier résultat sur un modèle macroscopique.
