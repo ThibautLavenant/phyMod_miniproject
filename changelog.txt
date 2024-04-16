@@ -18,3 +18,6 @@ Ajout de quelques équations guidant la relation vitesse densité venant de plus
 
 Benjamin 13/04:
 Corrections de typos, et progression du travail sur l'EDP de continuité, on arrive à un premier résultat sur un modèle macroscopique.
+
+Thibaut 16/04 :
+Suite et fin de la modélisation préalable. + Rédaction et présentation des résultats.
