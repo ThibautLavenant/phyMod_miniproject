@@ -21,3 +21,6 @@ Corrections de typos, et progression du travail sur l'EDP de continuité, on arr
 
 Thibaut 16/04 :
 Suite et fin de la modélisation préalable. + Rédaction et présentation des résultats.
+
+Benjamin 16/04 :
+Suite du 1er modèle
