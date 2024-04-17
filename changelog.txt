@@ -24,3 +24,6 @@ Suite et fin de la modélisation préalable. + Rédaction et présentation des r
 
 Benjamin 16/04 :
 Suite du 1er modèle
+
+Benjamin 17/04 :
+Ajout d'un graphique pour visualiser (j'aurai besoin d'aide pour le formatage!)
