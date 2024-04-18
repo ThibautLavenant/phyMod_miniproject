@@ -28,3 +28,6 @@ Suite du 1er modèle
 Benjamin 17/04 :
 Ajout d'un graphique pour visualiser (j'aurai besoin d'aide pour le formatage!)
 Rectification de quelques éléments que je n'avais pas eu le temps de faire.
+
+Thibaut 18/04 :
+Rédaction de l'introduction, de la partie gestion de projet et de la partie mise en place de l'environnement et des outils.
