@@ -31,3 +31,5 @@ Rectification de quelques éléments que je n'avais pas eu le temps de faire.
 
 Thibaut 18/04 :
 Rédaction de l'introduction, de la partie gestion de projet et de la partie mise en place de l'environnement et des outils.
+Modélisation V2 avec introduction du suivi de la voiture de devant aux petites distances.
+
