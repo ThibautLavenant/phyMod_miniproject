@@ -35,3 +35,6 @@ Modélisation V2 avec introduction du suivi de la voiture de devant aux petites 
 
 Benjamin 20/04:
 Finalisation du 1er modèle microscopique, on arrive à une dynamique complète du système, le code reste à implémenter.
+
+Benjamin 20/04 bis:
+Modification et ajout de quelques éléments pour clarifier le 1er modèle microscopique afin de rendre la compréhension du tout plus aisée.
