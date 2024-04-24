@@ -38,3 +38,9 @@ Finalisation du 1er modèle microscopique, on arrive à une dynamique complète 
 
 Benjamin 20/04 bis:
 Modification et ajout de quelques éléments pour clarifier le 1er modèle microscopique afin de rendre la compréhension du tout plus aisée.
+
+Thibaut 20/04-24/04 :
+Ajout des mesures brutes, ajout de la comparaison entre les modèles, ajout des TODO pour structurer le rapport.
+
+Benjamin 24/04 : 
+Mise en place de la bonne structure (Présentation, Equations, Modélisation numérique) pour le 1er modèle.
