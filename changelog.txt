@@ -44,3 +44,6 @@ Ajout des mesures brutes, ajout de la comparaison entre les modèles, ajout des 
 
 Benjamin 24/04 : 
 Mise en place de la bonne structure (Présentation, Equations, Modélisation numérique) pour le 1er modèle.
+
+Thibaut 20/04-24/04 :
+Ajout de commentaires sur la partie accélération variable. + Résolution numérique du modèle à accélération variable
