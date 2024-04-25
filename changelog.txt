@@ -47,3 +47,6 @@ Mise en place de la bonne structure (Présentation, Equations, Modélisation num
 
 Thibaut 20/04-24/04 :
 Ajout de commentaires sur la partie accélération variable. + Résolution numérique du modèle à accélération variable
+
+Benjamin 25/04 :
+Ajout d'un graphique et commentaire de code (1er modèle). Structuration du 2ème modèle (fluide) et quelques mises en forme.
