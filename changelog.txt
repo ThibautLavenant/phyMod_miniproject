@@ -45,8 +45,13 @@ Ajout des mesures brutes, ajout de la comparaison entre les modèles, ajout des 
 Benjamin 24/04 : 
 Mise en place de la bonne structure (Présentation, Equations, Modélisation numérique) pour le 1er modèle.
 
-Thibaut 20/04-24/04 :
+Thibaut 25/04 :
 Ajout de commentaires sur la partie accélération variable. + Résolution numérique du modèle à accélération variable
 
 Benjamin 25/04 :
 Ajout d'un graphique et commentaire de code (1er modèle). Structuration du 2ème modèle (fluide) et quelques mises en forme.
+
+Thibaut 26/04 :
+Refacto complet de ma modélisation + séparation en parties + rédaction des équations + simulation multivoitures
+Il manque encore un peu de travail sur cette partie. J'ai des divisions par 0 ennuyeuses.
+Il manque aussi le temps de réaction que je réintègrerai dans la prochaine version
