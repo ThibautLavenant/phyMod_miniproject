@@ -55,3 +55,8 @@ Thibaut 26/04 :
 Refacto complet de ma modélisation + séparation en parties + rédaction des équations + simulation multivoitures
 Il manque encore un peu de travail sur cette partie. J'ai des divisions par 0 ennuyeuses.
 Il manque aussi le temps de réaction que je réintègrerai dans la prochaine version
+
+Thibaut 27/04 :
+Correction de toutes les divisions par 0
+Ajout du temps de réaction
+Intégration du rapport de fit des modèles
