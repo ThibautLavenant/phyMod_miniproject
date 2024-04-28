@@ -60,3 +60,8 @@ Thibaut 27/04 :
 Correction de toutes les divisions par 0
 Ajout du temps de réaction
 Intégration du rapport de fit des modèles
+
+Thibaut 28/04 :
+Ajout de la partie python des domaines de stabilité pour les bouchons.
+Ajout de l'index
+Ajout des liens pour le corpus documentaire
