@@ -65,3 +65,7 @@ Thibaut 28/04 :
 Ajout de la partie python des domaines de stabilité pour les bouchons.
 Ajout de l'index
 Ajout des liens pour le corpus documentaire
+
+Thibaut 29/04 :
+Finalisation et rédaction de la partie espace des paramètres.
+Fin rédaction introduction
