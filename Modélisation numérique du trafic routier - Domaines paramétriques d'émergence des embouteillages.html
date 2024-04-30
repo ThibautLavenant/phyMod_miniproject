@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>MiniProject</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Modélisation numérique du trafic routier - Domaines paramétriques d'émergence des embouteillages</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7483,7 +7483,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Mini-projet">Mini projet<a class="anchor-link" href="#Mini-projet">¶</a></h1>
+<h1 id="Mod%C3%A9lisation-num%C3%A9rique-du-trafic-routier-:-Domaines-param%C3%A9triques-d'%C3%A9mergence-des-embouteillages">Modélisation numérique du trafic routier : Domaines paramétriques d'émergence des embouteillages<a class="anchor-link" href="#Mod%C3%A9lisation-num%C3%A9rique-du-trafic-routier-:-Domaines-param%C3%A9triques-d'%C3%A9mergence-des-embouteillages">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7570,7 +7570,7 @@ a.anchor-link {
 </ul>
 </li>
 <li><a href="#traficEmergence_id">6) Etude d'émergence d'embouteillage</a><ul>
-<li><a href="#traficEmergence_parametters_id">Etude de l'impact des paramètres de la route</a></li>
+<li><a href="#traficEmergence_roadParametters_id">Etude de l'impact des paramètres de la route</a></li>
 <li><a href="#traficEmergence_driverParametters_id">Etude de l'impact des paramètres du comportement de l'automobiliste</a></li>
 </ul>
 </li>
@@ -7642,7 +7642,7 @@ a.anchor-link {
 <p>[2] Github : Alokin-Fr. (2022, 1 juillet). <em>road-traffic-simulation</em> <a href="https://github.com/alokin-fr/road-traffic-simulation">https://github.com/alokin-fr/road-traffic-simulation</a> (<em>GitHub</em>)<a id="doc_pythonIDM_id"></a></p>
 <p>[3] Wikipedia contributors. (2022, 5 jeptembre). <em>Intelligent driver model</em> <a href="https://en.wikipedia.org/wiki/Intelligent_driver_model">https://en.wikipedia.org/wiki/Intelligent_driver_model</a> (<em>Wikipedia</em>)<a id="doc_IDM_id"></a></p>
 <p>[4] Base de données : (2020) <em>The Pan-Alpine gravity database 2020</em> <a href="https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=8039528e-3ada-11eb-9603-497c92695674">https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=8039528e-3ada-11eb-9603-497c92695674</a> (<em>GFZ Data Services</em>)<a id="doc_gravityDatabase_id"></a></p>
-<p>[5] Reinhard Illner et al (2005). <em>Mathematical modelling : a case studies approach</em>. <a href="https://bookstore.ams.org/stml-27/">https://bookstore.ams.org/stml-27/</a> (<em>Student mathematical library, ISSN 1520-9121 ; v.27 ISBN 9780821836507</em>) <a id="doc_mathBook_id"></a></p>
+<p>[5] Reinhard Illner et al (2005). <em>Mathematical modelling : a case studies approach</em>. <a href="https://bookstore.ams.org/stml-27/">https://bookstore.ams.org/stml-27/</a> (<em>Student mathematical library, ISSN 1520-9121 ; v.27 ISBN 9780821836507</em>)</p>
 <p>[6] M. J. Lighthill and G. B. Whitham (1955). <em>On Kinematic Waves. II. A Theory of Traffic Flow on Long Crowded Roads</em>. <a href="http://doi.org/10.1098/rspa.1955.0089">http://doi.org/10.1098/rspa.1955.0089</a> (<em>Proceedings of the Royal Society of London Series A 229, 317–345</em>)</p>
 <p>[7] Khelifi, A., Lebacque , J.-P. , &amp; Haj-Salem, H.  (2023). <em>Modélisation stochastique macroscopique d’ordre supérieur du trafic sur les réseaux routiers : implications managériales</em>. <a href="https://rfgi.fr/rfgi/article/view/1156">https://rfgi.fr/rfgi/article/view/1156</a>" (<em>Revue Française De Gestion Industrielle, 37(2), 71–86</em>)</p>
 <p>[8] Vidéo d'expérience : (2017, 7 juillet) <em>Le meilleur du Monde de Jamy - Comment se forment les bouchons ?</em> <a href="https://www.youtube.com/watch?v=wHz6S2dbYb4">https://www.youtube.com/watch?v=wHz6S2dbYb4</a> (<em>YouTube</em>)<a id="doc_emergence_id"></a></p>
@@ -7684,7 +7684,7 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Mod%C3%A8le-et-%C3%A9quations">Modèle et équations<a id="varA_pres_id"></a><a class="anchor-link" href="#Mod%C3%A8le-et-%C3%A9quations">¶</a></h3><p>Avec nos deux variables, on peut supposer que plus la vitesse relative est grande, plus la force de freinage sera importante. De la même manière, plus la distance relative sera petite, plus la force de freinage sera importante. On peut donc supposer en premier lieu qu'on a la relation suivante :</p>
+<h3 id="Mod%C3%A8le-et-%C3%A9quations">Modèle et équations<a id="varA_equations_id"></a><a class="anchor-link" href="#Mod%C3%A8le-et-%C3%A9quations">¶</a></h3><p>Avec nos deux variables, on peut supposer que plus la vitesse relative est grande, plus la force de freinage sera importante. De la même manière, plus la distance relative sera petite, plus la force de freinage sera importante. On peut donc supposer en premier lieu qu'on a la relation suivante :</p>
 <p>$$ m \cdot x''_{i}(t) = c\frac{x'_{i}(t)-x'_{i-1}(t)}{\left|x_{i}(t)-x_{i-1}(t)\right|}$$</p>
 <p>Comme l'humain ne réagit pas instantanément, on peut corriger la première approximation grossière en rajoutant un temps de réaction $\tau$ :</p>
 <p>$$ m \cdot x''_{i}(t+\tau) = c\frac{x'_{i}(t)-x'_{i-1}(t)}{\left|x_{i}(t)-x_{i-1}(t)\right|}$$</p>
