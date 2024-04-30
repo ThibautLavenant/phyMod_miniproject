@@ -41,3 +41,7 @@ http://doi.org/10.1098/rspa.1955.0089
 KHELIFI, A., LEBACQUE , J.-P. ., & HAJ-SALEM, H. . (2023). Modélisation stochastique macroscopique d’ordre supérieur du trafic sur les réseaux routiers : implications managériales. Revue Française De Gestion Industrielle, 37(2), 71–86. https://doi.org/10.53102/2023.37.02.1156
 
 Le Monde De Jamy. (2017, 7 juillet). Le meilleur du Monde de Jamy - Comment se forment les bouchons ? [Vidéo]. YouTube. https://www.youtube.com/watch?v=wHz6S2dbYb4
+
+## Crédit
+
+Modélisation Numérique en Physique By P. Delva © Copyright 2022 CC BY-NC-SA 4.0 DEED
