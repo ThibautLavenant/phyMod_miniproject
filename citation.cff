@@ -1,0 +1,140 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "Modélisation numérique du trafic routier : Domaines paramétriques d'émergence des embouteillages"
+message: "Si vous trouvez ce travail utile, vous pouvez le citer de cette manière"
+type: software
+authors:
+  - given-names: Thibaut
+    family-names: Lavenant
+    email: git@thibautlavenant.com
+  - given-names: Benjamin
+    family-names: Seo
+url: "https://github.com/ThibautLavenant/phyMod_miniproject"
+repository-code: 'https://github.com/ThibautLavenant/phyMod_miniproject'
+abstract: "Modélisation numérique du trafic routier. Une étude des domaines de paramètres environnementaux et comportementaux qui entrainent l'émergence d'embouteillages."
+keywords:
+  - "modélisation numérique"
+  - "modélisation"
+  - "embouteillage"
+  - "trafic routier"
+  - "infrastructure"
+  - "autoroutes"
+  - "mécanique des fluides"
+license: CC-BY-NC-SA-4.0
+references:
+  - authors:
+      - family-names: Mouhali
+        given-names: Waleed
+    title: "Comment se forment les embouteillages ?"
+    type: article
+    url: "https://theconversation.com/comment-se-forment-les-embouteillages-163994"
+    date-published: "2021-07-08"
+    journal: "The Conversation"
+  - authors:
+      - family-names: "alokin-fr"
+        given-names: "alokin-fr"
+    title: "road-traffic-simulation"
+    type: software
+    repository-code: "https://github.com/alokin-fr/road-traffic-simulation"
+  - authors:
+      - family-names: Wikipedia contributors
+    title: "Intelligent driver model"
+    type: encyclopedia
+    url: "https://en.wikipedia.org/w/index.php?title=Intelligent_driver_model&oldid=1108624771"
+    date-published: "2022-09-05"
+    publisher: "Wikipedia, The Free Encyclopedia."
+  - authors:
+      - family-names: "Zahorec"
+        given-names: "Pavol"
+      - family-names: "Papčo"
+        given-names: "Juraj"
+      - family-names: "Pašteka"
+        given-names: "Roman"
+      - family-names: "Bielik"
+        given-names: "Miroslav"
+      - family-names: "Bonvalot"
+        given-names: "Sylvain"
+      - family-names: "Braitenberg"
+        given-names: "Carla"
+      - family-names: "Ebbing"
+        given-names: "Jörg"
+      - family-names: "Gabriel"
+        given-names: "Gerald"
+      - family-names: "Gosar"
+        given-names: "Andrej"
+      - family-names: "Grand"
+        given-names: "Adam"
+      - family-names: "Götze"
+        given-names: "Hans-Jürgen"
+      - family-names: "Hetényi"
+        given-names: "György"
+      - family-names: "Holzrichter"
+        given-names: "Nils"
+      - family-names: "Kissling"
+        given-names: "Edi"
+      - family-names: "Marti"
+        given-names: "Urs"
+      - family-names: "Meurers"
+        given-names: "Bruno"
+      - family-names: "Mrlina"
+        given-names: "Jan"
+      - family-names: "Pastorutti"
+        given-names: "Alberto"
+      - family-names: "Scarponi"
+        given-names: "Matteo"
+      - family-names: "Sebera"
+        given-names: "Josef"
+      - family-names: "Seoane"
+        given-names: "Lucia"
+      - family-names: "Skiba"
+        given-names: "Peter"
+      - family-names: "Szűcs"
+        given-names: "Eszter"
+      - family-names: "Varga"
+        given-names: "Matej"
+    title: "The Pan-Alpine gravity database 2020"
+    type: data
+    date-published: "2020"
+    publisher: "GFZ Data Services"
+    doi: "https://doi.org/10.5880/fidgeo.2020.045"
+  - authors:
+      - family-names: "Reinhard"
+        given-names: "Illner"
+    title: "Mathematical Modelling: A Case Studies Approach"
+    type: book
+    url: "https://bookstore.ams.org/stml-27"
+    date-published: "2005"
+    publisher: "American Mathematical Society"
+    isbn: "9780821836507"
+  - authors:
+      - family-names: "Lighthill"
+        given-names: "Michael James"
+      - family-names: "Whitham"
+        given-names: "Gerald Beresford"
+    title: "On kinematic waves II. A theory of traffic flow on long crowded roads"
+    type: article
+    date-published: "1955-05-10"
+    publisher: "Royal Society"
+    doi: "https://doi.org/10.1098/rspa.1955.0089"
+  - authors:
+      - family-names: "KHELIFI"
+        given-names: "Asma"
+      - family-names: "LEBACQUE"
+        given-names: "Jean-Patrick"
+      - family-names: "HAJ-SALEM"
+        given-names: "Habib"
+    title: "Modélisation stochastique macroscopique d'ordre supérieur du trafic sur les réseaux routiers : implications managériales"
+    type: article
+    date-published: "2023-09-21"
+    publisher: "Revue Française De Gestion Industrielle"
+    doi: "https://doi.org/10.53102/2023.37.02.1156"
+  - authors:
+      - family-names: "Le Monde De Jamy"
+    title: "Le meilleur du Monde de Jamy - Comment se forment les bouchons ?"
+    type: video
+    date-published: "2017-07-07"
+    publisher: "YouTube"
+    url: "https://www.youtube.com/watch?v=wHz6S2dbYb4"
+
