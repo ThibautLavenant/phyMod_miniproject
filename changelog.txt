@@ -82,3 +82,7 @@ Cleanup de tous les liens de l'index + fix
 Ajout de l'export en HTML
 Renomage des fichiers et titre du projet
 Ajout du readme et du citation.cff
+
+Benjamin 01/05 : 
+Achèvement du modèle macroscopique fluide basé sur un modèle de LWR+Greenberg, simulation numérique et plot 3D. 
+Formatage et correction de quelques typos.
